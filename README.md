@@ -104,9 +104,8 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 
 - Clone the repository
 - Run `npm install`
-- Run `npm start` to start the server
 - Run `npm run build` to build the project
-- Run `npm run dev` to run the project
+- Run `npm run dev` to run the server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
