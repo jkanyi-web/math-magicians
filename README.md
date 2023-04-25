@@ -135,7 +135,7 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jkanyi-web/Math_Magicians/issues).
+Feel free to check the [issues page](https://github.com/jkanyi-web/Math-Magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
