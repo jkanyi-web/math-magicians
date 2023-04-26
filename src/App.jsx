@@ -1,6 +1,9 @@
 /** @format */
 import './index.css';
+import Calculator from './components/Calculator';
 
 export default function App() {
-  return <h1>Hello Microverse!</h1>;
+    return (
+      <Calculator />
+    )
 }
