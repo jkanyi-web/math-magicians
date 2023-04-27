@@ -44,7 +44,7 @@ export default function Calculator() {
           9
         </button>
         <button type='button' onClick={buttonClick} className='items orange'>
-          *
+          x
         </button>
         <button type='button' onClick={buttonClick} className='items'>
           4
