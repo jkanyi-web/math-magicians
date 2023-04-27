@@ -13,7 +13,7 @@ export default function Calculator() {
           <button className='items'>7</button>
           <button className='items'>8</button>
           <button className='items'>9</button>
-          <button className='items orange'>*</button>
+          <button className='items orange'>x</button>
           <button className='items'>4</button>
           <button className='items'>5</button>
           <button className='items'>6</button>
