@@ -5,18 +5,19 @@ axios.defaults.headers.get['X-Api-Key'] =
   'X0RJf1RjhctUxTka7UQisg==TgVq8OcBO5Lh3LUw';
 
 export default function Quotes() {
-  const [data, setData] = useState('Loading...');
+  const [loading, setLoading] = useState('Loading...');
+  const [error, setError] = useState('');
 
   const FetchQuotes = () => {
     axios
       .get('https://api.api-ninjas.com/v1/quotes?category=success')
       .then((res) => {
         if (res.status === 200) {
-          setData(res.data[0].quote)
+          setLoading(res.data[0].quote)
         }
       })
       .catch((e) => {
-        setData(e.message)
+        setError(e.message)
       });
   };
 
@@ -26,7 +27,8 @@ export default function Quotes() {
 
   return (
     <div>
-      <h1>{data}</h1>
+      <h1>{loading}</h1>
+      <h3>{error}</h3>
     </div>
   );
 }
