@@ -7,20 +7,15 @@ export default function Home() {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'flex-start',
+    marginBottom: '-150px',
   };
-  const headerStyle = {
-    fontSize: '2rem',
-    textAlign: 'left',
-    marginBottom: '50px',
-    marginTop: '-3px',
-  };
+
   const pStyle = {
     marginBottom: '30px',
   };
 
   return (
     <div style={divStyle}>
-      <h1 style={headerStyle}>Math Magicians</h1>
       <h3
         style={pStyle}>
         Welcome to our page!

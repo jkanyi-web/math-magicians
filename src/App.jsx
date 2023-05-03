@@ -6,8 +6,19 @@ import CalculatorPage from './CalculatorPage';
 import Quotes from './components/Quotes';
 
 export default function App() {
+    const headerStyle = {
+      fontSize: '2rem',
+      textAlign: 'left',
+      position: 'absolute',
+      top: '-15px',
+      left: '10px',
+
+    };
+
   return (
     <>
+      <h1 style={headerStyle}>Math Magicians</h1>
+
       <nav>
         <ul>
           <li>
