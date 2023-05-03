@@ -6,7 +6,6 @@
   - [Learning objectives ](#learning-objectives-)
   - [🛠 Built With ](#-built-with-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
   - [Test](#test)
     - [Prerequisites](#prerequisites)
@@ -44,12 +43,16 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 - Javascript
-- APIs
 - React
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+- Hitting API
+- Using React
+- React
+- React basic styling(inline and imported styling)
+- React-Router-Dom
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,6 +121,7 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+- More styling to enhance User Interface
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
