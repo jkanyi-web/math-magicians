@@ -26,8 +26,11 @@ export default function Quotes() {
   }, []);
 
   return (
-    <div>
-      <h1>{loading}</h1>
+    <div
+      style={{
+        padding: '20px',
+      }}>
+      <h2>{loading}</h2>
       <h3>{error}</h3>
     </div>
   );
